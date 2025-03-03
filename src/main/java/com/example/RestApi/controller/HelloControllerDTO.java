@@ -11,6 +11,6 @@ public class HelloControllerDTO {
     @PostMapping("/post")
     public String sayHello(@RequestBody UserDTO user) {
         return "Hello " + user.getFirstName() + " " + user.getLastName() + " from BridgeLabz!!!";
-        //curl.exe -X POST -H "Content-Type: application/json" -d '{\"firstName\": \"Nikhil\", \"lastName\": \"Kumar\"}' "http://localhost:8080/hello/post" -w "\n"
+        //curl.exe -X POST -H "Content-Type: application/json" -d '{\"firstName\": \"Mudit\", \"lastName\": \"Jadon\"}' "http://localhost:8080/hello/post" -w "\n"
     }
 }
